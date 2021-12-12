@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+p{
+	font-family: "Roboto", sans-serif;
+}
+body{
+  margin: 0px;
+}
+header .container{
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+main .container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+main section.submit{
+	display: inline-block;
+	padding: 30px;
+	border: 2px solid black;
+	
+}
+section.submit p{
+	margin-bottom: 10px;
+}
+p.inline{display: inline-block;}
+section input#enter, input#restarting{
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	background: transparent;
+	padding: 5px;
+	border: 2px solid black;
+}
+section input#enter:active, input#restarting:active{
+	border: 2px solid grey;
+	box-shadow: 0 0 3px rgba(0,0,0,1);
+}
+main section.gallow{
+	display: inline-block;
+	padding: 30px;
+	border: 2px solid black;
+	margin-left: 50px;
+}
+footer .container{
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+}

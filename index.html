@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+
+	<title>Gallow by Zhuchokk</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Gallow Game</h1>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+		<section class="submit" >
+
+			<form action="" id="form" onsubmit="return false">
+				<p id="word" >Word:</p>
+				<p class="inline">Assumption:</p>
+				<input id="input" type="text" size="10" maxlength="1">
+				<p id="errors">Errors:</p>
+				<input id="enter" type="submit" value="Check!", onclick="check()">
+				<input id="restarting" type="submit" value="Start!", onclick="restart()">
+			</form>
+		</section>
+		<section class="gallow">
+			<img id="g_image" src="images//0.png" alt="">
+		</section>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<p>First you need to click on the "start" button. Then the Program comes up with a word, and you start thinking different letters. If the letter is in the given word, the program puts it in a space in the place where it should be, and if the letter is not there, the program starts drawing the gallow.There are more than 30 words!</p>
+			<p>Gallow is created by Artiom</p>
+		</div>
+	</footer>
+	<script type='text/javascript' src='script.js'></script>
+</body>
+</html>
